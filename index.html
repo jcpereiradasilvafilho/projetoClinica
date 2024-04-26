@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Clínica Geral</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Seja bem-vindo ao Sistema Organiza Atendimentos - SOA</h1>
+        </header>
+        <main>
+            <div class="cadastro">
+                <h2>Cadastro de Paciente</h2>
+                <div>
+                    <label>Nome: </label>
+                    <input type="text" id="nome" size="40">
+                    <label>Especialidade médica: </label>
+                    <select id="especialidade">
+                        <option value="ortopedia">Ortopedia</option>
+                        <option value="cardiologia">Cardiologia</option>
+                        <option value="psiquiatria">Psiquiatria</option>
+                    </select>
+                    <button type="button" onclick="cadastrarPaciente()">Cadastrar</button>
+                </div>
+            </div>
+            <div id="fila"></div>
+        </main>
+        <footer>
+            <hr>
+            <ol>Referência:
+                <li>YOUTUBE: <a href="https://www.youtube.com/watch?v=_HEIqE_qqbQ">Mini projetos javascript (Iniciantes) - 08 CRUD Completo</a></li>
+                <li>GITHUB: <a href="https://github.com/fernandoleonid/mini-projetos-js/tree/master/08-crud">fernandoleonid/mini-projetos-js</a></li>
+                <li>MOZILLA: <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage">Window.localStorage</a></li>
+                <li>WARCONTENT: <a href="https://warcontent.com/localstorage-javascript/">LocalStorage JavaScript</a></li>
+                <li>YOUTUBE: <a href="https://www.youtube.com/watch?v=i04nMOowrII">CURSO JAVASCRIPT 8 - Armazenando dados do formulário em LocalStorage</a></li>
+                
+            </ol>            
+        </footer>
+    </body>
+</html>
